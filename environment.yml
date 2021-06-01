@@ -1,11 +1,23 @@
 name: cs361
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.8
   - ipykernel
   - jupyterlab
   - seaborn
   - nodejs
-prefix: C:\Users\Ben\miniconda3\envs\cs361
+  - rise
+  - pip:
+    - jupyter-contrib-nbextensions
+    - ipykernel
+    - ipympl
+    - ipython
+    - ipywidgets
+    - jupyter
+    - matplotlib
+    - numpy
+    - scikit-learn
+    - river
 
